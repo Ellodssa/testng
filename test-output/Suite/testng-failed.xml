@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <method-selectors>
+  <method-selector>
+    <selector-class name="fwk.BeoptMethodSelector" priority="15"/>
+  </method-selector>
+  </method-selectors>
+  <test thread-count="5" name="econfig_20160101(failed)">
+    <groups>
+      <run>
+        <include name="20160101"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestExample1">
+        <methods>
+          <include name="test1_2"/>
+        </methods>
+      </class> <!-- test.TestExample1 -->
+    </classes>
+  </test> <!-- econfig_20160101(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="15" total="24" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="483" started-at="2018-12-13T17:43:07Z" finished-at="2018-12-13T17:43:08Z">
+    <groups>
+    </groups>
+    <test name="econfig_20110101" duration-ms="161" started-at="2018-12-13T17:43:07Z" finished-at="2018-12-13T17:43:08Z">
+      <class name="test.TestExample1">
+        <test-method status="PASS" signature="test1_1()[pri:0, instance:test.TestExample1@4c70fda8]" name="test1_1" duration-ms="30" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_1 -->
+      </class> <!-- test.TestExample1 -->
+      <class name="test.TestExample2">
+        <test-method status="PASS" signature="test2_1()[pri:0, instance:test.TestExample2@46d56d67]" name="test2_1" duration-ms="10" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_1 -->
+        <test-method status="PASS" signature="test2_2()[pri:0, instance:test.TestExample2@46d56d67]" name="test2_2" duration-ms="0" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_2 -->
+        <test-method status="PASS" signature="test2_3()[pri:0, instance:test.TestExample2@46d56d67]" name="test2_3" duration-ms="0" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_3 -->
+      </class> <!-- test.TestExample2 -->
+    </test> <!-- econfig_20110101 -->
+    <test name="econfig_20160101" duration-ms="60" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+      <class name="test.TestExample1TestTest2">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.TestExample1TestTest2@343f4d3d]" name="test" duration-ms="0" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- test.TestExample1TestTest2 -->
+      <class name="test.TestExample1">
+        <test-method status="FAIL" signature="test1_2()[pri:0, instance:test.TestExample1@57baeedf]" name="test1_2" duration-ms="10" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+Configuration cannot be resolved to a type
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Configuration cannot be resolved to a type
+
+at test.TestExample1.test1_2(TestExample1.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_2 -->
+      </class> <!-- test.TestExample1 -->
+      <class name="test.TestExample2">
+        <test-method status="PASS" signature="test2_4()[pri:0, instance:test.TestExample2@53b32d7]" name="test2_4" duration-ms="0" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_4 -->
+      </class> <!-- test.TestExample2 -->
+      <class name="test.TestExample3">
+        <test-method status="PASS" signature="test3_1()[pri:0, instance:test.TestExample3@5442a311]" name="test3_1" duration-ms="10" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3_1 -->
+        <test-method status="PASS" signature="test3_2()[pri:0, instance:test.TestExample3@5442a311]" name="test3_2" duration-ms="0" started-at="2018-12-13T17:43:08Z" finished-at="2018-12-13T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3_2 -->
+      </class> <!-- test.TestExample3 -->
+    </test> <!-- econfig_20160101 -->
+  </suite> <!-- Suite -->
+</testng-results>
